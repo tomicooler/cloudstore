@@ -331,6 +331,8 @@ public class OptionSets {
   public static final String[] CLOUD_CONNECTOR_LOGS = {
       "org.apache.http",
       "org.apache.hadoop.fs.s3a",
+          "org.apache.hadoop.fs.s3a.S3AFileSystem",
+          "org.apache.knox.gateway.cloud.idbroker.s3a.IDBDelegationTokenBinding",
       "org.apache.hadoop.fs.abfs",
       "org.apache.hadoop.fs.azurebfs",
       "org.apache.knox.gateway",
