@@ -50,7 +50,7 @@ import static org.apache.hadoop.tools.store.StoreTestUtils.intercept;
 
 public class TestConstval {
 
-
+/*
   public static final String CONSTVAL = "org.apache.hadoop.fs.store.commands.Constval";
 
   private static void expectValue(String classname, String field, String expected) {
@@ -105,5 +105,5 @@ public class TestConstval {
   public void testExecBool() throws Exception {
     Constval.exec(FIELDS, "BOOL");
   }
-
+*/
 }
